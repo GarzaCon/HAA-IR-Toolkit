@@ -1,6 +1,7 @@
 # HAA-IR-Toolkit
 Tool to decode HAA IR Captured packets
 
+[![Donate](https://img.shields.io/badge/donate-PayPal-blue.svg)](https://paypal.me/GarzaConPP)
 
 The tool helps you decoding captured HAA IR packets into a 2, 4 or 6 bit HAA protocol and protocol command.
 URL: http://garzacon.com/haairtoolkit.html
