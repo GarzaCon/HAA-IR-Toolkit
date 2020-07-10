@@ -3,6 +3,7 @@ Tool to decode HAA IR Captured packets
 
 
 The tool helps you decoding captured HAA IR packets into a 2, 4 or 6 bit HAA protocol and protocol command.
+URL: http://garzacon.com/haairtoolkit.html
 
 For example, the capture below for a Daikin AC:
 + 5119 - 2104 +  414 - 1744 +  416 -  663 +  416 -  664 +  415 -  665 +  414 - 1744 +  415 -  664 +  415 -  664 
