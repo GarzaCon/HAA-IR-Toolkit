@@ -14,6 +14,9 @@ For example, if we use the HAA IR packets capture below (for a Daikin AC), the t
 - The HAA IR protocol command: e.g. aCaDaAbAeAaFbEaMAdCnNaCaDaAbAeAaFbKbBaAaIaDaMGaAaDbAbMBaEe
 - The HAA IR Protocol: e.g. LbEEAADPAAAwAA(4LbEEAA
 
+The tool will show you accumulated values the bits, protocol command and protocol.
+You could for example capture 5 samples, and decode all of them. You can the use a capture where the values matches others.
+
 The HAA IR protocol command and protocol values are used in HAA JSON configuration string.
 
 Sample HAA IR Packet capture:
