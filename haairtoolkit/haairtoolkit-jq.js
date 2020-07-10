@@ -1,3 +1,5 @@
+// HAA IR Toolkit - Copyright 2020 Antonio García (@GarzaCon)
+
 $(document).ready(function () {
 
     /* BEGIN STANDARD PROTOCOL LOGIC */

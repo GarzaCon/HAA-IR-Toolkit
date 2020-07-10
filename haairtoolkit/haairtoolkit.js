@@ -1,4 +1,6 @@
 
+// HAA IR Toolkit - Copyright 2020 Antonio García (@GarzaCon)
+
 function getIRProtocol_Standard_N_Bits()
 {
     // get values entered by the user

@@ -162,8 +162,6 @@ a, button {
   color: #333;
 }
 
-/* Wrapper Style */
-
 .wrapper{
   margin:0 auto;
   padding:1%;
@@ -349,3 +347,11 @@ section{ float:left; width:100%;}
   width: 25%;
 }
 
+.footer {
+  font-size: small;
+  margin: 3px;
+  position: absolute;
+  bottom: 1px;
+  width: 99%;
+  text-align: right;
+}
