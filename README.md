@@ -5,7 +5,7 @@ Tool to decode HAA IR Captured packets
 The tool helps you decoding captured HAA IR packets into a 2, 4 or 6 bit HAA protocol and protocol command.
 URL: http://garzacon.com/haairtoolkit.html
 
-For example, the capture below for a Daikin AC:
+For example, if we use the HAA IR packets capture below (for a Daikin AC):
 + 5119 - 2104 +  414 - 1744 +  416 -  663 +  416 -  664 +  415 -  665 +  414 - 1744 +  415 -  664 +  415 -  664 
 +  415 -  664 +  415 -  665 +  414 - 1744 +  416 -  665 +  413 - 1744 +  415 - 1743 +  416 -  672 +  407 - 1743 
 +  415 - 1744 +  415 - 1743 +  415 - 1744 +  415 - 1744 +  414 -  664 +  416 - 1743 +  415 -  665 +  414 -  664 
@@ -31,12 +31,12 @@ For example, the capture below for a Daikin AC:
 +  417 - 1742 +  417 - 1741 +  419 - 1739 +  418 
 
 The tool will analize the packets and identify:
-- The bits used in the capture, e.g. ["420-1740","420-660","420-29330","5120-2100"] - 4 bits protocol
+- The protocol bits used in the capture, e.g. ["420-1740","420-660","420-29330","5120-2100"] - 4 bits protocol
 - The protocol bits string, e.g.
 30111011110100100000101111110011111011111111111111000011123011101111010010000010111111001111111111100110101111111110111101111111111111111111101011110010011111111111111101111100000 - 179 bits
 - The HAA IR protocol command: e.g. aCaDaAbAeAaFbEaMAdCnNaCaDaAbAeAaFbKbBaAaIaDaMGaAaDbAbMBaEe
 - The HAA IR Protocol: e.g. LbEEAADPAAAwAA(4LbEEAA
 
-The HAA IR protocol command and protocol are used in HAA JSON configuration string.
+The HAA IR protocol command and protocol values are used in HAA JSON configuration string.
 
 
