@@ -1,0 +1,351 @@
+.button {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonBlue {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
+
+.buttonBlue:hover {
+  background-color: #008cba;
+  color: white;
+}
+
+.buttonGreen {
+  background-color: white;
+  color: black;
+  border: 2px solid #136337;
+}
+
+.buttonGreen:hover {
+  background-color: #136337;
+  color: white;
+}
+
+.buttonRed {
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+}
+
+.buttonRed:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+  background: #e3e3e3;
+  color: #000;
+  font-weight: 400;
+  font-size: 1em;
+  font-family: 'Lato', Arial, sans-serif;
+  margin:0;
+  padding:0;
+  padding-bottom:10px;
+}
+a {
+  color: #4f4d4d;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #000;
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+a, button {
+  outline: none;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* To Navigation Style */
+.cctop {
+  background:#08cbd2;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75em;
+  line-height: 3.2;
+}
+
+.cctop a {
+  display: inline-block;
+  padding: 0 1.5em;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.cctop span.right {
+  float: right;
+}
+
+.cctop span.right a {
+  display: block;
+  float: left;
+}
+
+/* Header Style */
+
+.ccheader {
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+}
+
+.ccheader h1 {
+  font-size: 2.625em;
+  font-weight: 300;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.ccheader h1 span {
+  display: block;
+  padding: 0 0 0.6em 0.1em;
+  font-size: 60%;
+  opacity: 0.7;
+}
+
+
+
+/* Demo Buttons Style */
+.codeconvey-demo {
+  padding-top: 1em;
+  font-size: 0.8em;
+}
+
+.codeconvey-demo a {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.7em 1.1em;
+  outline: none;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.codeconvey-demo a:hover,
+.codeconvey-demo a.current-demo,
+.codeconvey-demo a.current-demo:hover {
+  border-color: #333;
+  color: #333;
+}
+
+/* Wrapper Style */
+
+.wrapper{
+  margin:0 auto;
+  padding:1%;
+}
+
+section{ float:left; width:100%;}
+
+.opt{
+  background: url(../images/bg.jpg) repeat-x;
+  padding:3%;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.0.3');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.cctabs {
+  width: 100%;
+  margin: 5px auto;
+}
+.cctabs input[type="radio"] {
+  opacity: 0;
+}
+.cctabs .fa{
+  margin-right:10px;
+}
+.cctabs label {
+  color: #484848;
+  cursor: pointer;
+  float: left;
+  margin-right: 2px;
+  padding: 0.5% 2%;
+  font-size:16px;
+  font-weight:bold;
+}
+.cctabs label:hover {
+  background: -webkit-linear-gradient(#777, #666);
+}
+.cctabs input:checked + label {
+  background: #f4f7f9;
+  color: #000;
+  border-top:solid 2px #008cba;
+}
+.cctabs input:nth-of-type(1):checked ~ .panels .panel:first-child, .cctabs input:nth-of-type(2):checked ~ .panels .panel:nth-child(2), .cctabs input:nth-of-type(3):checked ~ .panels .panel:nth-child(3), .cctabs input:nth-of-type(4):checked ~ .panels .panel:last-child {
+  opacity: 1;
+  -webkit-transition: .3s;
+  /*position:relative;*/
+  z-index:999;
+}
+.cctabs .panels {
+  float: left;
+  clear: both;
+  position: relative;
+  width: 100%;
+  background: #fff;
+}
+.cctabs .panel {
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  background: #f4f7f9;
+  padding:1%;
+  box-sizing: border-box;
+}
+.cctabs .panel h2 {
+  margin: 0;
+  font-family: Arial;
+}
+
+.cctabs .panel i{
+  color:#ebb704;
+  cursor:pointer;
+}
+.cctabs .panel i:hover{
+  color:#f4cc42;
+}
+
+.cctabs .headline h1 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  padding-bottom: 0;
+  text-align: center;
+  text-rendering: optimizespeed;
+  margin: 10px 0;
+}
+
+.cctabs .headline hr {
+  background: none repeat scroll 0 0 #ebb704;
+  border: 2px solid;
+  color: #ebb704;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 30px;
+}
+
+.cctabs .headline .lead {
+  font-family: "Lato",sans-serif;
+  font-weight: 300;
+  line-height: 1.9;
+  margin: 5px 0;
+  text-align: center;
+}
+#map-canvas {
+  height: 366px;
+  width: 462px;
+}
+
+
+#cc-contact input[type="text"],
+#cc-contact input[type="email"],
+#cc-contact input[type="tel"],
+#cc-contact input[type="password"],
+#cc-contact textarea{
+  width:100%;
+  border:1px solid #ebb704;
+  margin:0 0 5px;
+  padding:10px;
+  font-family: "Lato",sans-serif;
+  font-size:14px;
+}
+
+#cc-contact textarea {
+  height:147px;
+  max-width:100%;
+}
+
+#cc-contact button[type="submit"] {
+  cursor:pointer;
+  width:100%;
+  border:none;
+  background:#ebb704;
+  color:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+  font-size:15px;
+}
+
+#cc-contact button[type="submit"]:hover {
+  background:#f4cc42;
+  -webkit-transition:background 0.3s ease-in-out;
+  -moz-transition:background 0.3s ease-in-out;
+  transition:background-color 0.3s ease-in-out;
+}
+
+/* GRID*/
+.grid {
+  display: block;
+  margin-left: -10px;
+}
+.cc-text-center{
+  text-align:center;
+}
+.cc-mt-20{
+  margin-top:50px;
+}
+.unit-2,
+.unit-3,
+.unit-4 {
+  float: left;
+  border-left: 10px solid transparent;
+  box-sizing: border-box;
+  background-clip: padding-box;
+}
+.unit-1{
+  width:100%;
+  float:left;
+}
+.unit-2 {
+  width: 50%;
+}
+
+.unit-3 {
+  width: 33.3%;
+}
+
+.unit-4 {
+  width: 25%;
+}
+
